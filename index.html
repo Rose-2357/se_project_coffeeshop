@@ -86,7 +86,7 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <div class="title-text">
-            <h2 class="recipes__title semi-bold">Recipes</h2>
+            <h2 class="recipes__title semi-bold section-title">Recipes</h2>
             <p class="recipes__subtitle serif main-text">
               Check out some recipes we've collected for your home-brewing
               convenience:
@@ -122,7 +122,80 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="book-a-table"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title semi-bold section-title">
+            Book a table
+          </h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label semi-bold"
+                >Name *</label
+              >
+              <input
+                type="text"
+                class="form__input"
+                name="name-input"
+                id="name-input"
+                placeholder="Name Surname"
+                required
+              />
+
+              <label for="guests-number-input" class="form__label semi-bold"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="form__input"
+                name="guests-number-input"
+                id="guests-number-input"
+                placeholder="1-8"
+                required
+              />
+
+              <label for="date-time-input" class="form__label semi-bold"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                class="form__input"
+                name="date-time-input"
+                id="date-time-input"
+                required
+              />
+
+              <label for="email-input" class="form__label semi-bold"
+                >Your email *</label
+              >
+              <input
+                type="email"
+                class="form__input"
+                name="email-input"
+                id="email-input"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button semi-bold">Book a table</button>
+            <label
+              for="agree-checkbox"
+              class="form__label form__label_type_checkbox semi-bold"
+            >
+              <div class="form__checkbox-wrapper">
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  name="agree-checkbox"
+                  id="agree-checkbox"
+                  required
+                />
+                <span class="form__checkbox form__checkbox_type_visible"></span>
+              </div>
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
