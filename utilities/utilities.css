@@ -29,3 +29,13 @@
 .contrast-section {
   color: #fff;
 }
+
+.span-accent {
+  display: block;
+  font-style: italic;
+  color: #3f96f3;
+}
+
+.span-right {
+  margin-left: auto;
+}
