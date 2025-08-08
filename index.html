@@ -22,7 +22,6 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Coffee Shop</title>
@@ -84,7 +83,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes" id="recipes">
+        <section class="recipes contrast-section" id="recipes">
           <div class="title-text">
             <h2 class="recipes__title semi-bold section-title">Recipes</h2>
             <p class="recipes__subtitle serif main-text">
@@ -182,7 +181,7 @@
               for="agree-checkbox"
               class="form__label form__label_type_checkbox semi-bold"
             >
-              <div class="form__checkbox-wrapper">
+              <span class="form__checkbox-wrapper">
                 <input
                   class="form__checkbox"
                   type="checkbox"
@@ -191,15 +190,163 @@
                   required
                 />
                 <span class="form__checkbox form__checkbox_type_visible"></span>
-              </div>
+              </span>
               I agree with the terms of use
             </label>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="contacts"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title section-title semi-bold">Menu</h2>
+          <p class="menu__subtitle main-text serif">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title main-text">Filter</h3>
+              <ul>
+                <li class="card__list-item serif">
+                  Regular (12 oz)
+                  <span class="card__list-divider"> </span>
+                  $1
+                </li>
+                <li class="card__list-item serif">
+                  Large (16 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.25
+                </li>
+                <li class="card__list-item serif">
+                  XL (20 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.5
+                </li>
+                <li class="card__list-item serif">
+                  Party-size (24 oz, decaf)
+                  <span class="card__list-divider"> </span>
+                  $1.75
+                </li>
+                <li class="card__list-item serif">
+                  Iced Coffee (16 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title main-text">Espresso</h3>
+              <ul>
+                <li class="card__list-item serif">
+                  Macchiato
+                  <span class="card__list-divider"> </span>
+                  $2.25
+                </li>
+                <li class="card__list-item serif">
+                  Cortado
+                  <span class="card__list-divider"> </span>
+                  $2.5
+                </li>
+                <li class="card__list-item serif">
+                  Mocha
+                  <span class="card__list-divider"> </span>
+                  $3
+                </li>
+                <li class="card__list-item serif">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"> </span>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title main-text">Baked Goods</h3>
+              <ul>
+                <li class="card__list-item serif">
+                  Almond Croissant
+                  <span class="card__list-divider"> </span>
+                  $2
+                </li>
+                <li class="card__list-item serif">
+                  Banana Bread
+                  <span class="card__list-divider"> </span>
+                  $1.75
+                </li>
+                <li class="card__list-item serif">
+                  Key Lime Pie
+                  <span class="card__list-divider"> </span>
+                  $3
+                </li>
+                <li class="card__list-item serif">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"> </span>
+                  $3.75
+                </li>
+                <li class="card__list-item serif">
+                  Web Cookie
+                  <span class="card__list-divider"> </span>
+                  $2
+                </li>
+                <li class="card__list-item serif">
+                  Fresh Bug'uette
+                  <span class="card__list-divider"> </span>
+                  $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about contrast-section">
+          <h2 class="about__title section-title semi-bold title-text">
+            About the coffee shop
+          </h2>
+          <div class="about__content">
+            <p class="about__paragraph main-text serif">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph main-text serif">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph main-text serif">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer contrast-section" id="contacts">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso logo"
+            class="footer__logo"
+          />
+          <div class="footer__column">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Instagram logo"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram logo"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Rose Ghaffari</p>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,22 @@
+.card {
+  width: 540px;
+  text-align: left;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  font-weight: bold;
+}
+
+.card__list-item {
+  margin: 0 0 16px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #000;
+}

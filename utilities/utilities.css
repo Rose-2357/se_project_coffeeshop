@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.serif {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.semi-bold {
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.title-text {
+  margin-left: 80px;
+}
+
+.main-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contrast-section {
+  color: #fff;
+}

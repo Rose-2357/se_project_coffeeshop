@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  margin: 30px 0 0 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  margin: 30px 80px 0 0;
+  column-gap: 20px;
+}
+
+/* .nav__link selector is not specific eanough to override the default browser styles */
+a.nav__link {
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.menu__title {
+  max-width: 780px;
+  margin: 0 auto 24px;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  margin: 0 auto 100px;
+}
+
+.menu__cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
