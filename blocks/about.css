@@ -4,11 +4,16 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  color: #fff;
 }
 
 .about__title {
   max-width: 251px;
   z-index: 1;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-left: 80px;
 }
 
 .about__content {
@@ -17,6 +22,9 @@
 
 .about__paragraph {
   margin-bottom: 20px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph:last-of-type {
@@ -26,7 +34,7 @@
 .about__circle {
   width: 426px;
   height: 426px;
-  background-color: #1878DC;
+  background-color: #1878dc;
   border-radius: 50%;
   position: absolute;
   top: -152px;
@@ -47,7 +55,7 @@
   }
 
   100% {
-  transform: scale(1.15);
+    transform: scale(1.15);
     opacity: 0;
   }
 }

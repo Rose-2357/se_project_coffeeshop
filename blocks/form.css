@@ -13,6 +13,7 @@
 .form__label {
   margin: 0;
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .form__label:last-of-type {
@@ -45,6 +46,7 @@
   width: 100%;
   color: #fff;
   transition: background-color 0.5s ease-out;
+  font-weight: 500;
 }
 
 .form__button:hover {

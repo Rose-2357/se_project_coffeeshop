@@ -6,6 +6,8 @@
 .card__title {
   margin: 0 0 32px;
   font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list-item {
@@ -14,6 +16,7 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-divider {

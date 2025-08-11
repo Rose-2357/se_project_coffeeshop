@@ -16,15 +16,20 @@
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
-
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  font-weight: 500;
+  margin-left: 80px;
 }
 
 .header__description {
   margin-top: 20px;
   max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  margin-left: 80px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -44,4 +49,5 @@
 
 .header__paragraph {
   color: #6f6f6f;
+  font-weight: 500;
 }
