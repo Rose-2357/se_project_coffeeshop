@@ -17,8 +17,7 @@
   column-gap: 20px;
 }
 
-/* .nav__link selector is not specific eanough to override the default browser styles */
-a.nav__link {
+.nav__link {
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s ease;

@@ -20,6 +20,13 @@
   margin-left: 80px;
 }
 
+.header__span-accent {
+  display: block;
+  font-style: italic;
+  color: #3f96f3;
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
 .header__description {
   margin-top: 20px;
   max-width: 683px;
@@ -45,6 +52,7 @@
 }
 
 .header__paragraph {
+  margin: 0;
   color: #6f6f6f;
   font-weight: 500;
 }

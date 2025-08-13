@@ -10,12 +10,19 @@
   justify-content: space-between;
 }
 
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
 .footer__social-heading {
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .footer__list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
